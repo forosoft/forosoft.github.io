@@ -408,11 +408,26 @@
   </article>
   
     
+
   <section id="comments">
   	
-           
+      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+      <div id="gitalk-container"></div>
+      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      <script type="text/javascript">
+          var gitalk = new Gitalk({
+              clientID: theme.gitalk.clientID,
+              clientSecret: theme.gitalk.clientSecret,
+              id: window.location.pathname,
+              repo: theme.gitalk.repo,
+              owner: theme.gitalk.owner,
+              admin: theme.gitalk.admin
+          })
+          gitalk.render('gitalk-container')
+      </script>
     
   </section>
+
 
 
   
@@ -493,6 +508,7 @@
 
 </main>
 
+
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 	
 	
@@ -558,9 +574,9 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
   <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
   <script type="text/javascript">
   var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: 'forosoft.com',
+    clientID: 'b2b6f69ec030250ec4c3',
+    clientSecret: 'd39144a7d623e1b5c3b3c7a943281f9941439c5f',
+    repo: 'forosoft.github.io',
     owner: 'forosoft',
     admin: ['forosoft'],
     id: md5(location.pathname),
