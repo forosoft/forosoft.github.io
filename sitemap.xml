@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://forosoft.github.io/2018/10/08/firstPost/</loc>
+    
+    <lastmod>2018-10-11T07:31:38.795Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://forosoft.github.io/about/index.html</loc>
     
-    <lastmod>2018-10-10T09:20:10.060Z</lastmod>
+    <lastmod>2018-10-11T06:19:25.846Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>https://forosoft.github.io/tags/index.html</loc>
     
     <lastmod>2018-10-10T09:05:41.371Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://forosoft.github.io/2018/10/08/hello-world/</loc>
-    
-    <lastmod>2018-10-08T07:33:53.290Z</lastmod>
     
   </url>
   
